@@ -20,7 +20,9 @@ class _LoginPageState extends State<LoginPage> {
       });
       await Future.delayed(const Duration(milliseconds: 350));
       await Navigator.pushNamed(context, CatalogAppRoutes.homeRoute);
+      
       setState(() {
+        _formKey.currentState?.reset();
         buttonChanged = false;
       });
     }
