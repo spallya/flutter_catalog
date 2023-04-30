@@ -18,7 +18,8 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.indigo,
           fontFamily: GoogleFonts.lato().fontFamily,
           textTheme: GoogleFonts.latoTextTheme()),
-      initialRoute: "/",
+      initialRoute: CatalogAppRoutes.homeRoute,
+      debugShowCheckedModeBanner: false,
       routes: {
         "/": (context) => const LoginPage(),
         CatalogAppRoutes.homeRoute: (context) => const HomePage(),

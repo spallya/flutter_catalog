@@ -84,7 +84,7 @@ class _LoginPageState extends State<LoginPage> {
                           return null;
                         }),
                     const SizedBox(
-                      height: 30,
+                      height: 40,
                     ),
                     Material(
                       borderRadius:
