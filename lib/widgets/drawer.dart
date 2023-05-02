@@ -27,6 +27,9 @@ class CatalogAppDrawer extends StatelessWidget {
               )),
           ListTile(
               leading: Icon(CupertinoIcons.home, color: Colors.indigo.shade400),
+              onTap: () {
+                Navigator.pushNamed(context, CatalogAppRoutes.homeRoute);
+              },
               title: Text(
                 "Home",
                 textScaleFactor: 1.2,
