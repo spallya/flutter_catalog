@@ -59,7 +59,7 @@
         {
             "id": 8,
             "name": "Galaxy S21",
-            "desc": "Samsung Galaxy S21 2021 edition",
+            "desc" : "Samsung Galaxy S21 2021 edition",
             "price": 899,
             "color": "#7c95eb",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBNHd7FwarbxA1xdMFt24KazjcR4dWPH_t_T5dz4YNK1s7rJAQ8gOIuR_NRw6eeiQgFhbZ9sAN&usqp=CAc"
