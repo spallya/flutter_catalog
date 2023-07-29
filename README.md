@@ -18,6 +18,7 @@ samples, guidance on mobile development, and a full API reference.
 
 
 ```
+//String query = "((field1 & field2) | field3) & field4 | (field5 & field6) & field7";
 private Criteria resolveQuery(Map<String, Criteria> map, String query) {
         Stack<Object> stack = new Stack<>();
         Criteria finalCriteria = null;
